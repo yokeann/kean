@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana" sans-serif;
+  line-height: 1.6;
+  background-color: black;
+  color: neon green;
+  cursor: url("https://cdn.pixabay.com/photo/2017/11/06/12/30/cursor-2920035_960_720.png"),
+    auto;
+}
+header {
+  margin: 0;
+  height: 15vh;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+}
+.center-header {
+  font-size: 24px;
+}
+
+header {
+  text-align: center;
+  padding: 24px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 10px solid neon green;
+  width: 100%;
+  margin: 18px auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icon {
+  color: neon green;
+  background-color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  background-color: neon green;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: neon green;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Hiding the audio player */
+audio {
+  display: none;
+}
